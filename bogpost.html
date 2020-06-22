@@ -21,6 +21,7 @@
                 fugit, cumque quidem necessitatibus?</p>
 
             <p>Suscribete y dale like</p>
+            <div id="comandos">
             <p><b>Comandos</b></p>
             <p>
                 <span>Sirve para agregar mensajes y archivos al stage</span>
@@ -28,10 +29,30 @@
                 <pre>git commit -am "mensaje"</pre>
             </p>
             <p>
-                <span>Sirve para agregar origenes de repositorio de github</span>
+                <span>Sirve para agregar/colocer origenes de repositorio de github</span>
                 <br>
                 <pre>git remote add origin [url]</pre>
+                <pre>git remote set-url origin [url]</pre>
             </p>
+
+            <p>
+                <span>Sirve para ver los origenes</span>
+                <br>
+                <pre>git remote [-v]</pre>
+            </p>
+            <p>
+                <span>Llevar los cambios a repositorio en la nube</span>
+                <br>
+                <pre>git push origin master </pre>
+            </p>
+            <p>
+                <span>Sirve resolver el confilcto al momento de agregar un push </span>
+                <img src="assets/error_push_orign_master.png" alt="">
+                <br>
+                <pre>git pull origin master --allow-unrelated-histories</pre>
+
+            </p>
+        </div><!--COMANDOS-->
         </div>
     </div>
 </body>

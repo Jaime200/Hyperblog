@@ -37,3 +37,18 @@ body {
 #post {
     padding : 1em
 }
+
+pre {
+    background:#CFCDCD;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#comandos p {
+    margin-bottom: 3px;
+}
+
+#comandos pre {
+    margin-top: 0px;
+}
