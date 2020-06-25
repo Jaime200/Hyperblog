@@ -40,6 +40,18 @@
                 <br>
                 <pre>git remote [-v]</pre>
             </p>
+
+            <p>
+                <span>Trer todos los cambios de github</span>
+                <br>
+                <pre>git pull <b>origin master</b></pre>
+                
+                <pre>
+                    <span><b>origin</b> = traer del origen (El nombre del repositorio remoto</span>
+                    <br>
+                    <span><b>master</b> = fusionarla con mi rama actual</span>
+                </pre>
+            </p>
             <p>
                 <span>Llevar los cambios a repositorio en la nube</span>
                 <br>
@@ -52,6 +64,51 @@
                 <pre>git pull origin master --allow-unrelated-histories</pre>
 
             </p>
+
+            <p>
+                <span>Llevar los cambios a repositorio en la nube</span>
+                <br>
+                <pre>git push origin master </pre>
+            </p>
+            <p>
+                <span>Ver configuración global de git </span>
+                <br>
+                <pre>git config -l</pre>
+
+            </p>
+            <p>
+                <span>Cambiar el email</span>
+                <br>
+                <pre>git config --global user.email "email@email.com"</pre>
+
+            </p>
+            <p>
+                <span>Crear  llave ssh</span>
+                <br>
+                <pre>ssh-keygen -t rsa -b 4096 -C "email@email.com"</pre>
+
+            </p>
+
+            <p>
+                <span>Comando para verificar que ssh este ejecutando</span>
+                <br>
+                <pre>eval $(ssh-agent -s)</pre>
+
+            </p>
+
+            <p>
+                <span>Agregar la llave ssh</span>
+                <br>
+                <pre>ssh-add [ruta]</pre>
+
+            </p>
+            <p>
+                <span>Cambiar la url de Origin</span>
+                <br>
+                <pre>git remote set-url origin [url]</pre>
+
+            </p>
+            
         </div><!--COMANDOS-->
         </div>
     </div>
