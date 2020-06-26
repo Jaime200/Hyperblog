@@ -36,11 +36,16 @@
             </p>
 
             <p>
+                <span>Cambiarde rama</span>
+                <br>
+                <pre>git checkout [nombreRama]</pre>
+            </p>
+
+            <p>
                 <span>Sirve para ver los origenes</span>
                 <br>
                 <pre>git remote [-v]</pre>
             </p>
-
             <p>
                 <span>Trer todos los cambios de github</span>
                 <br>
@@ -108,7 +113,61 @@
                 <pre>git remote set-url origin [url]</pre>
 
             </p>
-            
+            <p>
+                <span>Ver los cambios en forma de nodos</span>
+                <br>
+                <pre>git log --all --graph --decorate --oneline</pre>
+
+            </p>
+
+            <p>
+                <span>Alias</span>
+                <br>
+                <pre>alias arbolito = "git log --all --graph --decorate --oneline"</pre>
+
+            </p>
+
+            <p>
+                <span>Tags</span>
+                <br>
+                <pre>git tag -a v0.1 -m "Mensaje" [hash del commit]</pre>
+
+            </p>
+            <p>
+                <span>Ver referencia de los tags</span>
+                <br>
+                <pre>git show-ref --tags</pre>
+
+            </p>
+
+
+            <p>
+                <span>Enviar los tags a github</span>
+                <br>
+                <pre>git push origin --tags</pre>
+
+            </p>
+
+            <p>
+                <span>listar los tags</span>
+                <br>
+                <pre>git tag</pre>
+
+            </p>
+
+            <p>
+                <span>borrar tags</span>
+                <br>
+                <pre>git tag -d [nombreTag]</pre>
+
+            </p>
+
+            <p>
+                <span>borrar tags forma especial</span>
+                <br>
+                <pre>git push origin :refs/tags/[nombreTag]</pre>
+
+            </p>
         </div><!--COMANDOS-->
         </div>
     </div>
