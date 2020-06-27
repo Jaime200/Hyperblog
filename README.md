@@ -9,3 +9,4 @@ Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git
 * Trucos muy locos del profesor
 * Creado por platzi
 * Incluye ejemplos
+* Disponible para todas las edades
